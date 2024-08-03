@@ -1,0 +1,152 @@
+body {
+    background-color: #f0f2f5;;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Helvetica Neuce, Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    gap: 10rem;
+    padding: 5rem 15rem;
+}
+.left-container {
+    width: 50%;
+}
+
+.facebook-logo {
+height: 106px;
+margin: -28px;
+padding: 112px 0 16px;
+}
+
+.facebook-text {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin: 0;
+}
+
+.right-container {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 40px 0 0;
+    width: 396px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    padding: 20px 0 28px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px 15px;
+}
+
+.input-field {
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #1d2129;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 14px 16px;
+    outline: none;
+    width: 100%;
+}
+
+.login-button {
+width: 100%;
+background-color: #0866ff;
+font-size: 20px;
+border-radius: 6px;
+line-height: 48px;
+color: #fff;
+padding: 0 16px;
+font-weight: 700;
+border: none;
+transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 
+200ms cubic-bezier(.08,.52,.52,1) box-shadow, 
+200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.forgot-password {
+     color: #0866ff;
+     font-size: 13px;
+     font-weight: 400;
+     text-align: center;
+     text-decoration: none;
+     line-height: 20px;
+     width: fit-content;
+     margin: 0 auto;
+}
+
+.forgot-password:hover {
+text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    text-align: center;
+    margin: 10px 8px;
+    color: #dadde1;
+    background-color: #dadde1;
+    border-width: 0;
+}
+
+.create-new-account {
+background-color: #42b72a;
+border: none;
+border-radius: 6px;
+color: #fff;
+width: fit-content;
+padding: 0 16px;
+font-size: 20px;
+line-height: 48px;
+font-weight: 700;
+cursor: pointer;
+text-align: center;
+margin: 0 auto;
+transition: 200ms cubic-bezier(.08,.52,.52,1) 
+background-color, 200ms cubic-bezier(.08,.52,.52,1) 
+box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.create-new-account:hover {
+    background-color: #32a420;
+}
+
+.create-page {
+    font-size: 14px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.create-page a {
+color: #000;
+text-decoration: none;
+}
+
+.create-page a:hover {
+    text-decoration: underline;
+}
